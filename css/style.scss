@@ -60,10 +60,10 @@ body {
   // margin-top: 1em;
   margin-left: auto;
   margin-right: auto;
-  max-width: 412px;
+  width: 412px;
   height: 100vh;
-  background-image: url(/images/ArtDeco_Background.svg);
-  background-color: linear-gradient($color4, #759fd1, $color4);
+  background-image: url(/images/ArtDeco_Backgroundv2.svg);
+   background-color: linear-gradient($color4, #759fd1, $color4);
   border-radius: 20px;
   overflow: hidden;
   z-index: -1;
@@ -144,7 +144,7 @@ main.container {
     text-align: center;
     text-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
   }
-  article {
+ .home {
     margin: 3em auto;
     background-color: rgba(204, 182, 116, 0.92);
     color: $color1;
@@ -179,6 +179,9 @@ main.container {
     font-weight: 700;
     font-style: normal;
     font-size: 1.5em;
+  }
+  a {
+    text-decoration: none;
   }
 }
 
@@ -324,5 +327,66 @@ footer {
     font-weight: 300;
     font-style: normal;
 
+  }
+}
+
+
+//-------- ALL RECIPES ----------
+
+
+.scroll-ctnt2 {
+  // justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  position: relative;
+  height: 79vh;
+  color: $color1;
+  width: 300px;
+  font-family: casablanca-urw, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1em;
+  overflow: scroll;
+  z-index: 1;
+
+  h2 {
+    padding-top: 1em;
+    font-size: 4em;
+    text-align: center;
+    text-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
+  }
+ .cards {
+    margin: 3em auto;
+    background-color: $color1;
+    border-radius: 5px;
+    width: 250px;
+    height: 200px;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
+    font-family: europa, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    z-index: 3;
+  }
+  h3 {
+    padding: .25em 1em;
+    text-align: left;
+    color: $color4;
+    font-family: europa, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5em;
+    border-bottom: 2px #ccb674 dotted;
+  }
+
+  p {
+    padding: .25em 1.5em;
+    text-align: left;
+    line-height: 1.5em;
+    color: #707070;
+  }
+
+  a {
+    text-decoration: none;
   }
 }

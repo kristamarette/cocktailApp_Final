@@ -13,9 +13,9 @@ body {
   padding: 0;
   margin-left: auto;
   margin-right: auto;
-  max-width: 412px;
+  width: 412px;
   height: 100vh;
-  background-image: url(/images/ArtDeco_Background.svg);
+  background-image: url(/images/ArtDeco_Backgroundv2.svg);
   background-color: linear-gradient(#407abf, #759fd1, #407abf);
   border-radius: 20px;
   overflow: hidden;
@@ -106,7 +106,7 @@ main.container {
   text-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
 }
 
-.scroll-ctnt article {
+.scroll-ctnt .home {
   margin: 3em auto;
   background-color: rgba(204, 182, 116, 0.92);
   color: #fff;
@@ -142,6 +142,10 @@ main.container {
   font-weight: 700;
   font-style: normal;
   font-size: 1.5em;
+}
+
+.scroll-ctnt a {
+  text-decoration: none;
 }
 
 @-webkit-keyframes bounce {
@@ -260,5 +264,69 @@ footer p {
   font-family: casablanca-urw, sans-serif;
   font-weight: 300;
   font-style: normal;
+}
+
+.scroll-ctnt2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+  position: relative;
+  height: 79vh;
+  color: #fff;
+  width: 300px;
+  font-family: casablanca-urw, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1em;
+  overflow: scroll;
+  z-index: 1;
+}
+
+.scroll-ctnt2 h2 {
+  padding-top: 1em;
+  font-size: 4em;
+  text-align: center;
+  text-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.scroll-ctnt2 .cards {
+  margin: 3em auto;
+  background-color: #fff;
+  border-radius: 5px;
+  width: 250px;
+  height: 200px;
+  -webkit-box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
+  font-family: europa, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  z-index: 3;
+}
+
+.scroll-ctnt2 h3 {
+  padding: .25em 1em;
+  text-align: left;
+  color: #407abf;
+  font-family: europa, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5em;
+  border-bottom: 2px #ccb674 dotted;
+}
+
+.scroll-ctnt2 p {
+  padding: .25em 1.5em;
+  text-align: left;
+  line-height: 1.5em;
+  color: #707070;
+}
+
+.scroll-ctnt2 a {
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
