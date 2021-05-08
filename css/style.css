@@ -1,1 +1,221 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e3e3e3;
+  z-index: -4;
+}
+
+.app {
+  display: block;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 412px;
+  height: 100vh;
+  background-image: url(/images/ArtDeco_Background.svg);
+  background-color: linear-gradient(#407ABF, #759fd1, #407ABF);
+  border-radius: 20px;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.header-ctnt {
+  position: fixed;
+  margin-top: 0;
+  padding-top: 1em;
+  height: 12vh;
+  width: 412px;
+  text-align: center;
+  z-index: 2;
+}
+
+span {
+  width: 412px;
+  height: 40px;
+  display: inline;
+}
+
+span .search-icon {
+  margin-right: 300px;
+}
+
+h1 {
+  margin: 0 1em 2em 1em;
+  padding-bottom: 1.5em;
+  display: inline;
+  position: relative;
+  color: #407ABF;
+  width: 300px;
+  font-family: casablanca-urw, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 2.5em;
+  z-index: 3;
+}
+
+.header-bkgd {
+  background-color: rgba(204, 182, 116, 0.92);
+  margin-top: 0;
+  padding-top: 0;
+  border-radius: 20px 20px 0 0;
+  position: fixed;
+  height: 12vh;
+  width: 412px;
+  -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
+  z-index: initial;
+}
+
+main.container {
+  margin: 12vh 0 0 0;
+  padding: 0;
+  height: 79vh;
+  z-index: initial;
+}
+
+.scroll-ctnt {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+  position: relative;
+  height: 79vh;
+  color: #fff;
+  width: 300px;
+  font-family: casablanca-urw, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1em;
+  overflow: scroll;
+  z-index: 1;
+}
+
+.scroll-ctnt h2 {
+  font-size: 4em;
+  text-align: center;
+  text-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.scroll-ctnt section {
+  margin: 3em auto;
+  background-color: rgba(204, 182, 116, 0.92);
+  color: #fff;
+  border-radius: 5px;
+  width: 250px;
+  height: 100px;
+  -webkit-box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
+  font-family: europa, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  z-index: 3;
+}
+
+.scroll-ctnt p {
+  padding: 1.5em;
+  text-align: center;
+  text-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.scroll-ctnt img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2em 0 .5em 0;
+}
+
+.scroll-ctnt h3 {
+  text-align: center;
+  text-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-family: europa, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5em;
+}
+
+.scroll-ctnt a {
+  text-decoration: none;
+}
+
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+.bounce {
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+nav {
+  top: 0;
+  right: 1em;
+  float: right;
+  position: fixed;
+  height: 100vh;
+  background: rgba(204, 182, 116, 0.9);
+  width: 25%;
+  visibility: hidden;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  z-index: 3;
+}
+
+.exit {
+  height: 2em;
+  float: right;
+  margin: 0.5em;
+  cursor: pointer;
+}
+
+footer {
+  background-color: rgba(204, 182, 116, 0.92);
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-radius: 0 0 20px 20px;
+  position: fixed;
+  height: 9vh;
+  width: 412px;
+  -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
+  z-index: initial;
+}
+/*# sourceMappingURL=style.css.map */
