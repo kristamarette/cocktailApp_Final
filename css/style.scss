@@ -439,7 +439,7 @@ a {
 
 //------- NAVIGATION -------
 
-#nav {
+nav {
   top: 0;
   margin-left: auto;
   margin-right: auto;
@@ -468,7 +468,7 @@ a {
   cursor: pointer;
 }
 
-#nav ul {
+#nav>ul {
   margin: 0;
   padding: 2em;
   font-family: europa, sans-serif;
@@ -516,60 +516,73 @@ footer {
 
 
 //-------- ALL RECIPES ----------
+main.container {
+  overflow: scroll;
+  height: 100vh;
+}
 
+h2 {
+  padding-top: 1em;
+  font-family: europa, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  // font-size: 1em;
+  font-size: 4em;
+  color: $color1;
+  text-align: center;
+  text-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
+}
 
 .scroll-ctnt2 {
   // justify-content: center;
   display: flex;
   flex-direction: column;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  padding-bottom: 0;
   position: relative;
-  height: 79vh;
-  color: $color1;
-  width: 300px;
-  font-family: casablanca-urw, sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 1em;
-  overflow: scroll;
-  z-index: 1;
+  height: 100vh;
+  width: 400px;
+  z-index: 1;  
+}
 
-  h2 {
-    padding-top: 1em;
-    font-size: 4em;
-    text-align: center;
-    text-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
-  }
- .cards {
-    margin: 3em auto;
-    background-color: $color1;
-    border-radius: 5px;
-    width: 250px;
-    height: 200px;
-    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
-    font-family: europa, sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    z-index: 3;
-  }
-  .cards h3 {
+div.cards {
+  margin: auto;
+  // background-color: $color1;
+  border-radius: 5px;
+  width: 250px;
+  height: auto;
+  // box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
+  font-family: europa, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  z-index: 3;
+
+    h3 {
+    margin-top: 2em;
     padding: .25em 1em;
     text-align: left;
+    background-color: $color1;
     color: $color4;
     font-family: europa, sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 1.5em;
-    border-bottom: 2px #ccb674 dotted;
+    border-radius: 5px 5px 0 0;
+    border-bottom: 1.2px #ccb674 dotted;
   }
 
-  .cards ul {
+  ul {
     padding: .4em 2em;
     text-decoration: none;
     list-style-type: circle;
+    background-color: $color1;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
   }
-
-  .cards li {
+  
+   li {
     text-align: left;
     text-decoration: none;
     font-family: europa, sans-serif;
@@ -580,7 +593,7 @@ footer {
     color: #707070;
   }
 
-  a {
+   a {
     text-decoration: none;
   }
 }
