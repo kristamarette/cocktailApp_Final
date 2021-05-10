@@ -1,4 +1,4 @@
-// ------- NAVIGATION SEARCH -------
+// ------- NAVIGATION -------
 
 const get = element => document.getElementById(element);
 
@@ -15,4 +15,8 @@ open.addEventListener('click', ()=> {
 exit.addEventListener('click', ()=> {
     nav.classList.remove('open-nav');
 })
+
+
+// --------- ALL RECIPES --------
+
 
