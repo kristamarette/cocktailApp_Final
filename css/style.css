@@ -244,6 +244,7 @@ main.container {
 
 .btn--svg__label {
   -webkit-font-smoothing: antialiased;
+  padding-top: 10px;
   font-family: casablanca-urw, sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -419,12 +420,33 @@ footer {
 }
 
 footer p {
-  padding-top: .25em;
+  padding: .5em 0 0 .5em;
   color: #fff;
   font-family: casablanca-urw, sans-serif;
   font-weight: 300;
   font-style: normal;
-  text-align: center;
+  text-align: left;
+}
+
+footer .footerIcon {
+  height: 30px;
+  width: 300px;
+  margin: 0;
+  padding: 0px 0px 10px 0px;
+  display: inline;
+}
+
+#footer-section a {
+  height: 30px;
+  opacity: 0.6;
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+
+#footer-section a img {
+  margin-top: 0;
+  width: 30px;
+  height: 30px;
 }
 
 main.container {
