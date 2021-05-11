@@ -46,7 +46,7 @@ $('#searchInfo').keyup(function() {
         $.each(data, function(key, val) {
             if ((val.cocktailname.search(myExp) != -1) || (val.recipe.search(myExp) != -1)) {
                 output += '<h3>' + val.cocktailname + '</h3>';
-                output += '<ul>';
+                output += '<ul class="searchCards">';
                 output += '<li>' + val.recipe + '</li>';
                 output += '<li>' + val.prep + '</li>';
                 output += '<li>' + 'Served: ' + val.served + '</li>';
