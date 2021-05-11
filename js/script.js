@@ -40,7 +40,7 @@ $('#search').keyup(function() {
 	var searchField = $('#search').val();
 	var myExp = new RegExp(searchField, "i");
 	$.getJSON('/pages/data.json', function(data) {
-		var output1 = '<div class="cards">';
+		var output1 = '<div class="searchresults">';
 		$.each(data, function(key, val) {
 			if ((val.cocktailname.search(myExp) != -1) || val.prep.search(myExp) || val.garnish.search(myExp) || val.served.search(myExp) ||
 			(val.recipe.search(myExp) != -1)) {
