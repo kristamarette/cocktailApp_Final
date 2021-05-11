@@ -512,13 +512,9 @@ div.cards a {
   margin-top: 0;
   padding-top: 1em;
   height: 18vh;
-  max-width: 412px;
+  width: 412px;
   text-align: center;
   z-index: 2;
-}
-
-.header-ctnt-search h1 {
-  margin-top: 0;
 }
 
 span {
@@ -536,7 +532,7 @@ span #search {
   padding-top: 0;
   border-radius: 20px 20px 0 0;
   position: fixed;
-  height: 16vh;
+  height: 20vh;
   width: 412px;
   -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
@@ -546,10 +542,10 @@ span #search {
 div#searcharea {
   padding: 0 1.5em;
   width: 350px;
+  height: 3em;
 }
 
 div#searcharea label {
-  padding: 0;
   font-family: europa, sans-serif;
   font-weight: 200;
   font-style: normal;
@@ -573,7 +569,8 @@ div#searcharea input {
   margin: auto;
   border-radius: 5px;
   width: 250px;
-  height: auto;
+  height: 100vh;
+  overflow: scroll;
   font-family: europa, sans-serif;
   font-weight: 200;
   font-style: normal;
