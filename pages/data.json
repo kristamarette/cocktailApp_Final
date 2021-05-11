@@ -98,7 +98,7 @@
         "secondarySpirit": "Gin",
         "prep": "Shake",
         "served": "On the rocks",
-        "garnish": "Top with 30mL Seltzer Water" 
+        "garnish": "30mL Seltzer Water" 
 
     },
     {"id": 12,
@@ -168,7 +168,7 @@
         "secondarySpirit": "Swedish Punsch",
         "prep": "Swizzle",
         "served": "Over crushed ice",
-        "garnish": "Tiki Mug" 
+        "garnish": "An Umbrella" 
 
     },
     {"id": 19,
@@ -218,7 +218,7 @@
         "secondarySpirit": "Sparkling Wine",
         "prep": "Shake",
         "served": "Up",
-        "garnish": "Top with 90mL Sparkling Wine and Lemon rip" 
+        "garnish": "90mL Sparkling Wine & Lemon rip" 
 
     },
     {"id": 24,
@@ -308,7 +308,7 @@
         "secondarySpirit": "Bitters",
         "prep": "Shake",
         "served": "Up",
-        "garnish": "Top with 1 dash Angostura Bitters, 1 dash Cynar" 
+        "garnish": "1 dash Angostura Bitters & 1 dash Cynar" 
 
     },
     {"id": 33,
@@ -318,7 +318,7 @@
         "secondarySpirit": "Cognac",
         "prep": "Shake",
         "served": "Over crushed ice",
-        "garnish": "Tiki mug" 
+        "garnish": "An Umbrella" 
 
     },
     {"id": 34,
@@ -348,7 +348,7 @@
         "secondarySpirit": "Sparkling Wine",
         "prep": "Shake",
         "served": "Up",
-        "garnish": "Top with 90mL Sparkling Wine and Lemon Expression" 
+        "garnish": "90mL Sparkling Wine & Lemon Expression" 
 
     },
     {"id": 37,
@@ -408,7 +408,7 @@
         "secondarySpirit": "Rum",
         "prep": "Shake",
         "served": "Over crushed ice",
-        "garnish": "Umbrella" 
+        "garnish": "An Umbrella" 
 
     },
     {"id": 43,
@@ -458,7 +458,7 @@
         "secondarySpirit": "Mathilde XO Orange",
         "prep": "Swizzle",
         "served": "Over crushed ice",
-        "garnish": "Tiki mug" 
+        "garnish": "An Umbrella" 
 
     },
     {"id": 48,
@@ -638,7 +638,7 @@
         "secondarySpirit": "Benedictine",
         "prep": "Shake",
         "served": "On the rocks",
-        "garnish": "Top with 90mL Selzter Water" 
+        "garnish": "90mL Selzter Water" 
 
     },
     {"id": 66,
@@ -648,7 +648,7 @@
         "secondarySpirit": "Gin",
         "prep": "Shake",
         "served": "On the rocks",
-        "garnish": "Top with 90mL Seltzer Water" 
+        "garnish": "90mL Seltzer Water" 
 
     },
     {"id": 67,
@@ -688,7 +688,7 @@
         "secondarySpirit": "Rum",
         "prep": "Shake",
         "served": "On the rocks",
-        "garnish": "Top with 90mL Selzter" 
+        "garnish": "90mL Selzter" 
 
     },
 
@@ -759,7 +759,7 @@
         "secondarySpirit": "Sparkling Wine",
         "prep": "Shake",
         "served": "Up",
-        "garnish": "Top with 90mL Sparkling Wine and Lemon rip" 
+        "garnish": "90mL Sparkling Wine & Lemon rip" 
 
     },
     {"id": 78,
@@ -769,7 +769,7 @@
         "secondarySpirit": "Sweet Vermouth",
         "prep": "Stir",
         "served": "On the rocks",
-        "garnish": "Top with 90mL Seltzer Water" 
+        "garnish": "90mL Seltzer Water" 
 
     },
     {"id": 79,
@@ -831,7 +831,7 @@
         "secondarySpirit": "Luxardo Maraschino",
         "prep": "Stir",
         "served": "Up",
-        "garnish": "Absinthe Spritz and Lemon coin" 
+        "garnish": "Absinthe Spritz & Lemon coin" 
 
     },
     {"id": 85,
@@ -960,7 +960,7 @@
         "secondarySpirit": "White Rum",
         "prep": "Shake",
         "served": "On the rocks",
-        "garnish": "Top with 90mL Seltzer Water and 1 dash Angostura Bitters" 
+        "garnish": "90mL Seltzer Water & 1 dash Angostura Bitters" 
 
     }, {"id": 98,
         "cocktailname": "Caipirinha",
