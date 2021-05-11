@@ -38,8 +38,8 @@ exit.addEventListener('click', ()=> {
 
 // //---------- SEARCH PAGE ---------
 
-$('#search').keyup(function() {
-    var searchField = $('#search').val();
+$('#searchInfo').keyup(function() {
+    var searchField = $('#searchInfo').val();
     var myExp = new RegExp(searchField, "i");
     $.getJSON('/pages/data.json', function(data) {
         var output = '<ul class="searchresults">';
