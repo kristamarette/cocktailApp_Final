@@ -66,7 +66,7 @@ gsap.registerPlugin(TextPlugin);
 gsap.registerPlugin(SplitText, ScrollTrigger);
 
 let split
-let animation = gsap.timeline({repeat:-1, yoyo:true, repeatDelay:0.3})
+let animation = gsap.timeline({repeat:3, yoyo:false, repeatDelay: 5})
 
 function init() {
 	gsap.set(".title", {autoAlpha:1})

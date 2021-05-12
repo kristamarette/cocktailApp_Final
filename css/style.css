@@ -70,7 +70,7 @@ h1 {
 }
 
 main.container {
-  margin: 12vh 0 0 0;
+  margin: 12vh 0 10vh 0;
   padding: 0;
   height: 79vh;
   overflow: hidden;
@@ -608,12 +608,16 @@ div#searcharea input:focus {
   margin: auto;
   border-radius: 5px;
   width: 250px;
-  height: 100vh;
+  height: 90vh;
   overflow: scroll;
   font-family: europa, sans-serif;
   font-weight: 200;
   font-style: normal;
   z-index: 1;
+}
+
+#update ul.searchresults {
+  height: 80vh;
 }
 
 #update h3 {
