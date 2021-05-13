@@ -62,8 +62,7 @@ $('#searchInfo').keyup(function() {
 
 //-------- GSAP --------
 
-gsap.registerPlugin(TextPlugin);
-gsap.registerPlugin(SplitText, ScrollTrigger);
+gsap.registerPlugin(SplitText, ScrollTrigger, TextPlugin);
 
 let split
 let animation = gsap.timeline({repeat:3, yoyo:false, repeatDelay: 5})
