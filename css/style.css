@@ -15,7 +15,7 @@ body {
   margin-right: auto;
   width: 412px;
   height: 100vh;
-  background-image: url(/images/ArtDeco_Backgroundv2.svg);
+  background-image: url("/images/ArtDeco_Backgroundv2.svg");
   background-color: linear-gradient(#407abf, #759fd1, #407abf);
   border-radius: 20px;
   overflow: hidden;
